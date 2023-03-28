@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #27292b;
+    color: #4f5152;
+}
+
+.wrapper {
+    border-radius: 10px;
+    width: 500px;
+    background-color: #ffffff;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #368ddd, #20d493);
+    height: 180px;
+    color: #ffffff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+h1 {
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.header p {
+    margin-top: 10px;
+}
+
+.splitter {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding: 40px 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.count {
+    display: block;
+    margin: 15px auto;
+    background-color: #30b0ba;
+    color: #ffffff;
+    border: none;
+    /* padding: 15px 30px; */
+    border-radius: 100px;
+    height: 50px;
+    width: 40%;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.count:hover {
+    /* padding: 12px 30px; */
+    border: 2px solid #30b0ba;
+    color: #30b0ba;
+    background-color: transparent;
+    transition: all .1s;
+}
+
+input, select {
+    margin-bottom: 20px;
+    padding: 8px 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(185, 185, 185);
+    color: #4f5152;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+}
+
+input:focus, select:focus {
+    outline: none;
+}
+
+.cost-info {
+    display: none;
+    margin-top: 30px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.cost {
+    font-weight: bold;
+}
+
+.error {
+    margin-top: 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #b90e0a;
+}
